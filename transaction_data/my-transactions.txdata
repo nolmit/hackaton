@@ -1,0 +1,44 @@
+[
+    {
+        "transactionName": "VesselExists",
+        "transactionLabel": "A test VesselExists transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "CreateVessel",
+        "transactionLabel": "A test CreateVessel transaction",
+        "arguments": [
+            "001",
+            "some value"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "ReadVessel",
+        "transactionLabel": "A test ReadVessel transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "UpdateVessel",
+        "transactionLabel": "A test UpdateVessel transaction",
+        "arguments": [
+            "001",
+            "some other value"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "DeleteVessel",
+        "transactionLabel": "A test DeleteVessel transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    }
+]
