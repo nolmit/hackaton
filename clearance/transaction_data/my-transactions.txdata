@@ -1,0 +1,32 @@
+[
+
+    {
+        "transactionName": "CreateClearance",
+        "transactionLabel": "A test CreateClearance transaction",
+        "arguments": [
+            "clr_001",
+            {
+                "vesselInfo": "vessel_1",
+                "crewList": {
+                    "crew": ["pass_1","pass_2"]
+                },
+                "securityDeclaration": {
+                    "vesselSecurityLevel": "1",
+                    "armsAndAmmunition": "No"
+                },
+                "certificateInfo": ["cert_1", "cert_2"],
+                "voyageInfo": {
+                    "lastPort": "Hamburg, Germany",
+                    "nextPort": "Rotterdam, Netherlands"
+                },
+                "bunkerDeclaration": {
+                    "arrivalRobFO": "200.00"
+                },
+                "cargoDeclaration": {
+                    "cargoDescription": "Container"
+                }
+            }
+        ],
+        "transientData": {}
+    }
+]
