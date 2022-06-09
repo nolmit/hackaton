@@ -1,0 +1,81 @@
+[
+    {
+        "transactionName": "InitCrew",
+        "transactionLabel": "initcrew",
+        "arguments": [
+            [
+                {
+                    "id": "crew_1",
+                    "name": "Jack Sparrow",
+                    "passportNumber": "pass_1",
+                    "passportExpiry": "2027-07-20"
+                },
+                {
+                    "id": "crew_2",
+                    "name": "Red John",
+                    "passportNumber": "pass_2",
+                    "passportExpiry": "2027-05-20"
+                },
+                {
+                    "id": "crew_3",
+                    "name": "John Snow",
+                    "passportNumber": "pass_3",
+                    "passportExpiry": "2020-07-20"
+                }
+            ]
+        ],
+        "transientData": {
+        }
+    },
+    {
+        "transactionName": "InitVessels",
+        "transactionLabel": "InitVessels",
+        "arguments": [
+            [
+                {
+                    "imoNumber": "vessel_1",
+                    "name": "MV Good Hope"
+                },
+                {
+                    "imoNumber": "vessel_2",
+                    "name": "Evergreen"
+                },
+                {
+                    "imoNumber": "vessel_3",
+                    "name": "Rusty bucket"
+                }
+            ]
+        ],
+        "transientData": {
+        }
+    },
+    {
+        "transactionName": "InitCertificates",
+        "transactionLabel": "InitCertificates",
+        "arguments": [
+            [
+                {
+                    "id": "cert_1",
+                    "certName": "Certificate Of Insurance",
+                    "certIssueAuthority": "X",
+                    "certExpiry": "2023-06-20"
+                },
+                {
+                    "id": "cert_2",
+                    "certName": "CLC 92 Certificate",
+                    "certIssueAuthority": "X",
+                    "certExpiry": "2023-07-20"
+                },
+                {
+                    "id": "cert_3",
+                    "certName": "International Ship Security Certificate",
+                    "certIssueAuthority": "X",
+                    "certExpiry": "2020-07-20"
+                }
+            ]
+        ],
+        "transientData": {
+        }
+    }
+]
+   
